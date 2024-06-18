@@ -97,6 +97,10 @@
 	?>
 </head>
 <body>
+	<div class="promo-header">
+        <a href="https://petguide.dk/kategori/hundemad/hundegodbidder/?pa-partnerid=21747&pacid=66718a73a34135.17474585&utm_source=partnerads&utm_medium=affiliate&utm_campaign=21747" class="promo-text">🐶 Snup 15% rabat på ALLE godbidder - Begrænset tid! 🛒💥</a>
+        <button class="close-btn">&times;</button>
+    </div>
 	<div class="top-header">
 		<div class="top-header-inner">
 			<a class="display-block float-left" href="index.php" aria-label="Logo link">
@@ -174,6 +178,11 @@
 			closeNav()
 		}
 	}
+	document.querySelector('.close-btn').addEventListener('click', function() {
+        document.querySelector('.promo-header').style.display = 'none';
+        document.querySelector('.top-header').style.top = '0';
+        document.querySelector('.layout-wrapper').style.padding = '30px 0';
+    });
 </script>	
 	<main>
 		<?php
