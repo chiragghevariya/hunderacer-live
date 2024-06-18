@@ -1336,7 +1336,7 @@ a {
 }
 @media (max-width: 768px) {
 	.close-btn {
-        right: 7px !important;
+        right: 5px !important;
     }
 }
 @media (max-width: 600px) {
@@ -1347,7 +1347,7 @@ a {
 
     .close-btn {
         position: absolute;
-        right: 7px;
+        right: 5px;
     }
 
     .content {
