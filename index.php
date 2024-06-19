@@ -98,7 +98,11 @@
 </head>
 <body>
 	<div class="promo-header">
-        <a href="https://petguide.dk/kategori/hundemad/hundegodbidder/?pa-partnerid=21747&pacid=66718a73a34135.17474585&utm_source=partnerads&utm_medium=affiliate&utm_campaign=21747" class="promo-text">🐶 Snup 15% rabat på ALLE godbidder - Begrænset tid! 🛒💥</a>
+		<span class="promo-text">🐶 Snup 15% rabat på ALLE godbidder - Begrænset tid! 🛒💥</span>
+        <a href="https://petguide.dk/kategori/hundemad/hundegodbidder/?pa-partnerid=21747&pacid=66718a73a34135.17474585&utm_source=partnerads&utm_medium=affiliate&utm_campaign=21747" class="promo-btn ml-3" target="_blank">
+            Se tilbud her!
+        </a>
+        
         <button class="close-btn">&times;</button>
     </div>
 	<div class="top-header">
